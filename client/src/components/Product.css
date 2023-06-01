@@ -1,0 +1,26 @@
+.Product {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Product img {
+  width: 90%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.Product h3 {
+  margin-bottom: 5px;
+}
+
+.Product p {
+  margin-bottom: 10px;
+}
+
+.Product p:last-child {
+  font-weight: bold;
+}

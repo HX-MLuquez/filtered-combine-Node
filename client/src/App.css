@@ -1,0 +1,8 @@
+/* Estilos generales de la aplicación */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}

@@ -1,0 +1,18 @@
+.ProductList {
+  flex: 1;
+  padding: 20px;
+}
+
+.ProductList h2 {
+  margin-bottom: 10px;
+}
+
+.productContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* La propiedad flex: 1 al estilo de .ProductList, lo que permitirá que ocupe todo el espacio 
+disponible y empuje a la Sidebar hacia la izquierda cuando no haya productos en la lista. */
